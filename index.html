@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CisnerosTech - Instituto Superior</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Hoja de estilos personalizada -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="bg-dark sticky-top shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-dark container py-3">
+            <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+                <i class="fa-solid fa-graduation-cap fa-lg me-2 text-primary"></i> CisnerosTech
+                <small class="d-block text-muted fs-7 ms-2" style="font-size: 0.65rem;">Instituto Superior</small>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav align-items-lg-center gap-3">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programas">Programas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#beneficios">Beneficios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <a href="#registro" class="btn btn-success px-4 py-2 rounded-2 fw-semibold">Regístrate</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN HERO -->
+    <section id="inicio" class="hero-section py-5 bg-light border-bottom">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-dark mb-4">Forma tu futuro con educación de calidad</h1>
+                    <p class="lead text-secondary mb-4">Programas técnicos superiores diseñados para impulsar tu desarrollo profesional y personal.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#programas" class="btn btn-primary px-4 py-3 fw-semibold">Conoce nuestras carreras</a>
+                        <a href="#contacto" class="btn btn-outline-secondary px-4 py-3 fw-semibold">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-lg overflow-hidden rounded-4">
+                        <img src="img/arq.jpg" alt="Estudiantes en biblioteca" class="img-fluid object-fit-cover" style="height: 350px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿POR QUÉ ESTUDIAR CON NOSOTROS? (CON ICONOS) -->
+    <section id="beneficios" class="py-5 bg-white">
+        <div class="container text-center py-4">
+            <h2 class="fw-bold mb-3 text-dark">¿Por qué estudiar con nosotros?</h2>
+            <div class="mx-auto bg-primary mb-5" style="width: 50px; height: 3px;"></div>
+            
+            <div class="row g-4 mt-2">
+                <div class="col-md-3 col-sm-6">
+                    <div class="p-4">
+                        <div class="icon-box mx-auto mb-3 d-flex align-items-center justify-content-center bg-primary bg-opacity-10 text-primary rounded-circle" style="width: 70px; height: 70px;">
+                            <i class="fa-solid fa-graduation-cap fa-2x"></i>
+                        </div>
+                        <h5 class="fw-bold text-dark">Educación de calidad</h5>
+                        <p class="text-muted small">Docentes especializados y programas actualizados.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="p-4">
+                        <div class="icon-box mx-auto mb-3 d-flex align-items-center justify-content-center bg-success bg-opacity-10 text-success rounded-circle" style="width: 70px; height: 70px;">
+                            <i class="fa-solid fa-briefcase fa-2x"></i>
+                        </div>
+                        <h5 class="fw-bold text-dark">Oportunidades reales</h5>
+                        <p class="text-muted small">Convenios con empresas y bolsa de trabajo.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="p-4">
+                        <div class="icon-box mx-auto mb-3 d-flex align-items-center justify-content-center bg-warning bg-opacity-10 text-warning rounded-circle" style="width: 70px; height: 70px;">
+                            <i class="fa-solid fa-laptop fa-2x"></i>
+                        </div>
+                        <h5 class="fw-bold text-dark">Modalidad flexible</h5>
+                        <p class="text-muted small">Estudia a tu ritmo con nuestros horarios flexibles.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="p-4">
+                        <div class="icon-box mx-auto mb-3 d-flex align-items-center justify-content-center bg-info bg-opacity-10 text-info rounded-circle" style="width: 70px; height: 70px;">
+                            <i class="fa-solid fa-users fa-2x"></i>
+                        </div>
+                        <h5 class="fw-bold text-dark">Acompañamiento</h5>
+                        <p class="text-muted small">Te apoyamos en cada paso de tu formación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROGRAMAS Y FORMULARIO DE REGISTRO (LAYOUT COMPARTIDO) -->
+    <section id="programas" class="py-5 bg-light">
+        <div class="container py-4">
+            <h2 class="fw-bold mb-3 text-dark">Nuestras Carreas</h2>
+            <p class="text-secondary mb-5">Explora nuestra oferta académica diseñada para tu éxito profesional.</p>
+
+            <div class="row g-4">
+                <!-- Contenedor principal de tarjetas generadas por JavaScript -->
+                <div class="col-lg-8">
+                    <div class="row g-4" id="contenedor-carreras">
+                        <!-- Las tarjetas se inyectarán dinámicamente desde datos.js y script.js -->
+                    </div>
+                </div>
+
+                <!-- Formulario lateral de Registro (Igual al de la compañera) -->
+                <div class="col-lg-4" id="registro">
+                    <div class="card shadow border-0 p-4 rounded-4 sticky-top" style="top: 100px;">
+                        <h3 class="fw-bold mb-3 text-dark fs-4">Regístrate ahora</h3>
+                        <p class="text-muted small mb-4">Déjanos tus datos y recibe información sobre nuestros carreras.</p>
+                        
+                        <div id="alerta" class="alert d-none" role="alert"></div>
+
+                        <form id="formRegistro">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label fw-semibold small">Nombre completo</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ej. Juanita Yupanqui">
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label fw-semibold small">Correo electrónico</label>
+                                <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label fw-semibold small">Teléfono</label>
+                                <input type="tel" class="form-control" id="telefono" placeholder="Ej. 987554321">
+                            </div>
+                            <div class="mb-3">
+                                <label for="programaInteres" class="form-label fw-semibold small">Carrera de interés</label>
+                                <select class="form-select" id="carreraInteres">
+                                    <option value="" selected disabled>Selecciona una carrera</option>
+                                    <option value="Diseño de moda">Diseño de moda</option>
+                                    <option value="Ingeniería Mecánica">Ingeniería Mecánica</option>
+                                    <option value="Administración de Empresas">Administración de Empresas</option>
+                                    <option value="Contabilidad y Finanzas">Contabilidad y Finanzas</option>
+                                    <option value="Ingeniería Industrial">Ingeniería Industrial</option>
+                                    <option value="Psicología">Psicología</option>
+                                    <option value="Derecho">Derecho</option>
+                                    <option value="Marketing Digital">Marketing Digital</option>
+                                    <option value="Enfermería">Enfermería</option>
+                                    <option value="Arquitectura">Arquitectura</option>
+                                    <option value="Ingeniería Civil">Ingeniería Civil</option>
+                                    <option value="Negocios Internacionales">Negocios Internacionales</option>
+                                    <option value="Comunicación Social">Comunicación Social</option>
+                                    <option value="Medicina Humana">Medicina Humana</option>
+                                    <option value="Gestión de Recursos Humanos">Gestión de Recursos Humanos</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="terminos">
+                                <label class="form-check-label small text-muted" for="terminos">Acepto los términos y condiciones</label>
+                            </div>
+                            <button type="submit" class="btn btn-success w-100 py-2 fw-semibold">Enviar registro</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contacto" class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-graduation-cap fa-lg me-2 text-primary"></i>
+                        <h5 class="fw-bold mb-0">CisnerosTech</h5>
+                    </div>
+                    <p class="text-white-50 small">Formamos profesionales técnicos con valores, capaces de transformar su entorno.</p>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="text-white-50 text-decoration-none"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                        <a href="#" class="text-white-50 text-decoration-none"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white-50 text-decoration-none"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Enlaces rápidos</h6>
+                    <ul class="list-unstyled small text-white-50 d-flex flex-column gap-2">
+                        <li><a href="#inicio" class="text-white-50 text-decoration-none">Inicio</a></li>
+                        <li><a href="#nosotros" class="text-white-50 text-decoration-none">Nosotros</a></li>
+                        <li><a href="#programas" class="text-white-50 text-decoration-none">Carreras</a></li>
+                        <li><a href="#beneficios" class="text-white-50 text-decoration-none">Beneficios</a></li>
+                        <li><a href="#contacto" class="text-white-50 text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3">Contáctanos</h6>
+                    <ul class="list-unstyled small text-white-50 d-flex flex-column gap-2">
+                        <li><i class="fa-solid fa-location-dot me-2 text-primary"></i> Av. San Martin 211</li>
+                        <li><i class="fa-solid fa-phone me-2 text-primary"></i> +51 935 789 794</li>
+                        <li><i class="fa-solid fa-envelope me-2 text-primary"></i> info@CisnerosTech.edu.pe</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3">Síguenos</h6>
+                    <p class="text-white-50 small">Mantente conectado con nuestras novedades.</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control form-control-sm" placeholder="Tu correo electrónico">
+                        <button class="btn btn-primary btn-sm" type="button">Suscribirse</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="text-center text-white-50 small">
+                <p class="mb-0">&copy; 2026 CisnerosTech Superior. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Archivos JavaScript Propios -->
+    <script src="js/datos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

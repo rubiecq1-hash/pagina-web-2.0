@@ -1,0 +1,60 @@
+:root {
+    --color-azul-oscuro: #111e38;
+    --color-azul-principal: #0d6efd;
+    --color-verde-btn: #198754;
+    --color-gris-claro: #f8f9fa;
+    --color-gris-texto: #495057;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-gris-texto);
+    background-color: #ffffff;
+}
+
+/* HEADER / NAVEGACIÓN */
+header.bg-dark {
+    background-color: var(--color-azul-oscuro) !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+/* BOTONES PRINCIPALES */
+.btn-primary {
+    background-color: var(--color-azul-principal) !important;
+    border-color: var(--color-azul-principal) !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7 !important;
+    border-color: #0a58ca !important;
+}
+
+/* BOTÓN REGISTRARSE DEL NAV */
+.btn-success, .btn-registro {
+    background-color: var(--color-verde-btn) !important;
+    border-color: var(--color-verde-btn) !important;
+    color: #ffffff !important;
+}
+
+/* TARJETAS Y CONTENEDORES */
+.card {
+    border: 1px solid #dee2e6 !important;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(13, 110, 253, 0.15) !important;
+}
+
+/* FOOTER INSTITUCIONAL */
+footer.bg-dark {
+    background-color: var(--color-azul-oscuro) !important;
+    color: #ffffff !important;
+}
